@@ -1,0 +1,13 @@
+[package]
+
+name = "pubsub"
+version = "0.0.1"
+authors = ["Unai Orbe <unai@orbe.me>"]
+
+[dependencies.redis-rs]
+git = "https://github.com/uorbe001/redis-rs.git"
+
+[lib]
+name = "pubsub"
+path = "src/lib.rs"
+
